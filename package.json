@@ -1,0 +1,39 @@
+{
+  "name": "litis",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Skill de Claude Code que lee un expediente judicial chileno (ebook del Poder Judicial) o un expediente arbitral del CAM y entrega estrategia con respaldo en el propio expediente.",
+  "license": "MIT",
+  "bin": {
+    "litis": "scripts/expediente.mjs"
+  },
+  "scripts": {
+    "instalar": "node instalar.mjs",
+    "test": "node scripts/prueba.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Joaquin Larrain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djlarrix/litis"
+  },
+  "homepage": "https://github.com/djlarrix/litis#readme",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "chile",
+    "derecho",
+    "litigacion",
+    "arbitraje",
+    "poder-judicial",
+    "cam-santiago",
+    "legaltech"
+  ]
+}
